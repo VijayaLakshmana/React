@@ -1,3 +1,4 @@
+import propTypes from "prop-types"
 export function Print(rops){
     return(
         <div>
@@ -6,5 +7,15 @@ export function Print(rops){
             <p>EmployeeStatus:{rops.EmployeeStatus ? " Yes" : " No"}</p>
         </div>
     )
+}
+Print.propTypes= {
+    Name: propTypes.string,
+    age: propTypes.number,
+    EmployeeStatus: propTypes.bool
 
+}
+Print.defaultProps={
+    Name:"vicky",
+    age:0,
+    EmployeeStatus:true
 }
