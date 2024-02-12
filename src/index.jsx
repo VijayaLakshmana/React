@@ -12,8 +12,8 @@ import it from "react-dom/client"
 // import Condition from "./feb 12/Condition";
 // import LifeCycle from "./feb 12/LifeCycleB";
 // import Display from "./feb 12/review";
-// import ChangeValue from "./feb 12/ChangeValue";
-import Button from "./feb 12/Button";
+// import ChangeValue from "./feb 12/Task/ChangeValue";
+import Button from "./feb 12/Task/Button";
 const root=it.createRoot(document.getElementById('root'));
 // root.render(<Display/>)
 // root.render(<ShowImage/>)
