@@ -11,7 +11,9 @@ import it from "react-dom/client"
 // import Toggle from "./feb 12/HandlingEvent";
 // import Condition from "./feb 12/Condition";
 // import LifeCycle from "./feb 12/LifeCycleB";
-import Display from "./feb 12/review";
+// import Display from "./feb 12/review";
+// import ChangeValue from "./feb 12/ChangeValue";
+import Button from "./feb 12/Button";
 const root=it.createRoot(document.getElementById('root'));
 // root.render(<Display/>)
 // root.render(<ShowImage/>)
@@ -21,4 +23,6 @@ const root=it.createRoot(document.getElementById('root'));
 // root.render(<Toggle/>)
 // root.render(<Condition/>)
 // root.render(<LifeCycle/>)
-root.render(<Display/>)
+// root.render(<Display/>)
+// root.render(<ChangeValue/>)
+root.render(<Button/>)
