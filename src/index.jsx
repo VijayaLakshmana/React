@@ -13,7 +13,20 @@ import it from "react-dom/client"
 // import LifeCycle from "./feb 12/LifeCycleB";
 // import Display from "./feb 12/review";
 // import ChangeValue from "./feb 12/Task/ChangeValue";
-import Button from "./feb 12/Task/Button";
+// import Button from "./feb 12/Task/Button";
+// import List from "./Feb 13/list";
+// import Button from "./feb14/ButtonList";
+// import Example from "./feb14/Hooks";
+// import Cleanup from "./feb14/HooksA";
+// import Display from "./feb14/Hooks2";
+// import UserInputs from "./feb15/CustomHooks";
+// import App from "./feb15/app";
+// import App from "./feb15/ErrorBoundaries/app";
+// import Context from "./feb16/UseContext";
+import UseEffect from "./feb16/UseEffect";
+// import Ref from "./feb16/UseRef";
+// import Callback from "./feb16/CallBack";
+// import Person from "./feb16/HOC/HigherOrder";
 const root=it.createRoot(document.getElementById('root'));
 // root.render(<Display/>)
 // root.render(<ShowImage/>)
@@ -25,4 +38,18 @@ const root=it.createRoot(document.getElementById('root'));
 // root.render(<LifeCycle/>)
 // root.render(<Display/>)
 // root.render(<ChangeValue/>)
-root.render(<Button/>)
+// root.render(<Button/>)
+// root.render(<List/>)
+// root.render(<Button/>)
+// root.render(<Example/>)
+// root.render(<Cleanup/>)
+// root.render(<Display/>)
+// root.render(<UserInputs/>)
+// root.render(<App/>)
+// root.render(<Context/>)
+// root.render(<Callback/>)
+// root.render(<Ref/>)
+root.render(<UseEffect/>)
+// root.render(<Person/>)
+// root.render(<Callback/>)
+
