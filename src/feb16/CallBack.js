@@ -1,13 +1,13 @@
-import { useState, useCallback } from "react";
+import { useState, useMemo } from "react";
 import Product from "./Product";
 export default function Callback(){
     const [value, setValue]=useState(["product 1","product 2"])
     const [count, setCount]=useState(0)
     const [cart, setCart]=useState(0)
 
-    const addToCart=useCallback(()=>{
+    const addToCart=useMemo(()=>{
         
-        setCart(cart + 1)
+      return(()=>  setCart(cart + 1))
     },[cart])
     return(
         <>

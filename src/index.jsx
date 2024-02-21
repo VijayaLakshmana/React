@@ -23,10 +23,13 @@ import it from "react-dom/client"
 // import App from "./feb15/app";
 // import App from "./feb15/ErrorBoundaries/app";
 // import Context from "./feb16/UseContext";
-import UseEffect from "./feb16/UseEffect";
+// import UseEffect from "./feb16/UseEffect";
 // import Ref from "./feb16/UseRef";
 // import Callback from "./feb16/CallBack";
+// import { PrintValue } from "./feb17/DataAdding";
 // import Person from "./feb16/HOC/HigherOrder";
+// import StateButton from "./feb17/state";
+import LiftUp from "./feb20/LiftStateup";
 const root=it.createRoot(document.getElementById('root'));
 // root.render(<Display/>)
 // root.render(<ShowImage/>)
@@ -49,7 +52,10 @@ const root=it.createRoot(document.getElementById('root'));
 // root.render(<Context/>)
 // root.render(<Callback/>)
 // root.render(<Ref/>)
-root.render(<UseEffect/>)
+// root.render(<UseEffect/>)
 // root.render(<Person/>)
 // root.render(<Callback/>)
+// root.render(<PrintValue/>)
+// root.render(<StateButton/>)
+root.render(<LiftUp/>)
 

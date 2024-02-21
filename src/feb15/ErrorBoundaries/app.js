@@ -1,6 +1,6 @@
 import { DisplayAnimals } from "./Display";
 import { Component } from "react";
-import ErrorBoundary from "./Error";
+// import ErrorBoundary from "./Error";
 export default class App extends Component{
   render(){
     return(
@@ -8,9 +8,9 @@ export default class App extends Component{
          
         <DisplayAnimals AnimalName="cat"></DisplayAnimals>
         <DisplayAnimals AnimalName="dog"></DisplayAnimals>
-        <ErrorBoundary>
+        {/* <ErrorBoundary> */}
         <DisplayAnimals AnimalName="Bike"/> 
-         </ErrorBoundary>
+         {/* </ErrorBoundary> */}
         
     </>
   )
