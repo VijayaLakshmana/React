@@ -26,7 +26,7 @@
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
-    "template": "custom-template.hbs",
+    "template": "/auto/custom-template.hbs",
     "unreleased": true,
     "commitLimit": false,
     "backfillLimit": false

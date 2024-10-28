@@ -11,7 +11,7 @@ export default function Display (){
                 console.log("get value")
 
             },2000)
-       
+       dddd
 
         return()=>{
             console.log("clean up started")
