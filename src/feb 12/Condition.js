@@ -12,6 +12,7 @@ export default class Condition extends Component{
     loggedOutClick(){
         this.setState({isLoggedIn:false})
     }
+    //storm
     render(){
         const loggedIn=this.state.isLoggedIn;
         let Button;
