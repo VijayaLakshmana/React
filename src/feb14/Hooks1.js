@@ -12,8 +12,6 @@ export default function Display1(){
             clearInterval(timerId)
 
          }
-         console.log(   "sucess");
-         console.
 
     })
 
