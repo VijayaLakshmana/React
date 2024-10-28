@@ -1,13 +1,6 @@
 {{#each releases}}
 ## [{{version}}] - {{date}}
 
-{{#if merged}}
-### Merged
-{{#each merged}}
-- {{capitalize this.title}} [`#{{this.number}}`]({{this.url}})
-{{/each}}
-{{/if}}
-
 {{#if changes.breaking}}
 ### Breaking Changes
 {{#each changes.breaking}}
@@ -15,16 +8,30 @@
 {{/each}}
 {{/if}}
 
+{{#if changes.fixed}}
+### Bug Fix
+{{#each changes.fixed}}
+- {{this.message}}
+{{/each}}
+{{/if}}
+
 {{#if changes.added}}
-### Added
+### Feature
 {{#each changes.added}}
 - {{this.message}}
 {{/each}}
 {{/if}}
 
-{{#if changes.fixed}}
-### Fixed
-{{#each changes.fixed}}
+{{#if changes.deprecated}}
+### Deprecation
+{{#each changes.deprecated}}
+- {{this.message}}
+{{/each}}
+{{/if}}
+
+{{#if changes.removed}}
+### Removal
+{{#each changes.removed}}
 - {{this.message}}
 {{/each}}
 {{/if}}
