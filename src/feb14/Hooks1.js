@@ -11,7 +11,7 @@ export default function Display1(){
             console.log("finish")
             clearInterval(timerId)
 
-        }
+         }
 
     })
 
