@@ -1,0 +1,32 @@
+{{#each releases}}
+## [{{version}}] - {{date}}
+
+{{#if merged}}
+### Merged
+{{#each merged}}
+- {{capitalize this.title}} [`#{{this.number}}`]({{this.url}})
+{{/each}}
+{{/if}}
+
+{{#if changes.breaking}}
+### Breaking Changes
+{{#each changes.breaking}}
+- {{this.message}}
+{{/each}}
+{{/if}}
+
+{{#if changes.added}}
+### Added
+{{#each changes.added}}
+- {{this.message}}
+{{/each}}
+{{/if}}
+
+{{#if changes.fixed}}
+### Fixed
+{{#each changes.fixed}}
+- {{this.message}}
+{{/each}}
+{{/if}}
+
+{{/each}}
